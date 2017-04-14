@@ -1,4 +1,4 @@
-# My First SQL
+# My First SQL - 50 Points
 
 I really need access to [website](http://shell2017.picoctf.com:52085/), but I forgot my password and there is no reset. Can you help?
 
