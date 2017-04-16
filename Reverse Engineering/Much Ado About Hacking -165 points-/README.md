@@ -98,8 +98,8 @@ public class MuchAdoAboutHacking{
 Essentially, what the program is doing is that it takes up all the input and pushes it onto benedick's (One of the characters) stack until a space character (ASCII Value 32) is encountered. 
 In the final scene, it prints the input values backward offset the previous input character printed by first subtracting 32 from the original value, storing it, adding the previous printed value - 32, modding the result by 96 and adding 32 again to get the final character needed to print.
 
-After understanding how the code worked, I began to look at the String given to determine how I could produce it from the program: "tu1|\h+&g\OP7@% :BH7M6m3g="
-I created a Solver program to automate this process by inputting the desired String to be find.
+After understanding how the code worked, I began to look at the String given to determine how I could produce it from the program: "tu1|\h+&g\OP7@% :BH7M6m3g=". 
+I created a Solver program to automate this process by inputting the desired String to be found.
 
 ```java
 import java.io.*;
@@ -131,7 +131,9 @@ public class MuchAdoAboutHackingSolver {
 	}
 }
 ```
-Inputting "tu1|\h+&g\OP7@% :BH7M6m3g=" into the program above yielded the final answer: Its@MidSuMm3rNights3xpl0!t  ,which is the flag!
+Inputting "tu1|\h+&g\OP7@% :BH7M6m3g=" into the program above yielded the final answer: Its@MidSuMm3rNights3xpl0!t 
+
+Flag: Its@MidSuMm3rNights3xpl0!t 
 
 
 
