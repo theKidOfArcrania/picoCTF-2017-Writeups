@@ -131,7 +131,7 @@ public class MuchAdoAboutHackingSolver {
 	}
 }
 ```
-Inputting "tu1|\h+&g\OP7@% :BH7M6m3g=" into the program above yielded the final answer: Its@MidSuMm3rNights3xpl0!t 
+Inputting "tu1|\h+&g\OP7@% :BH7M6m3g=" into the program above yielded the final answer: Its@MidSuMm3rNights3xpl0!t  ,which is the flag!
 
 
 
