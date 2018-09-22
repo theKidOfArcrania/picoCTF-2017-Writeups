@@ -25,7 +25,7 @@ A function that you call typically has two properties, a **stack pointer** (top 
 
 ### Deciphering the Assembly Code
 
-Then a code calls a function, the address of the code's next instruction is implicitly pushed onto the stack (also known as the **return address**). 
+When a code calls a function, the address of the code's next instruction is implicitly pushed onto the stack (also known as the **return address**). 
 
 The first few instructions will prepare our new stack and frame pointer relative to the function. We also would want to save the previous function's frame pointer so that later on we can return to it via a `pop`:
 ```assembly
